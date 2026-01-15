@@ -1,3 +1,10 @@
+#This is a little puzzle game that encodes and decodes your text
+#you enter the text , if it is atleast three characters 
+#first character is added to the last index and random characters are added at the first three and last three indexes
+#example : your text:greenapple
+# encoded : @#9reenappleg#7T
+#for decoding if you send the encoded text , it removes those characters and returns th original text
+#Happy coding!
 import random
 import string
 

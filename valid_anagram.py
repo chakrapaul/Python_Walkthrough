@@ -1,6 +1,7 @@
 s="anagram"
 t="nagaram"
 
+
 # for ch in s:
 #     print(ch,end=" ")
 

@@ -33,7 +33,7 @@ answers_list=["Canberra","George Washington","Mars","Pacific Ocean","Alexander G
 
 
 price_money = 0
-count = 0
+
 
 for q,a in zip(questions_list,answers_list):
     print(q)
