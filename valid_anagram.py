@@ -1,13 +1,18 @@
-s="anagram"
-t="nagaram"
+def valid_anagram(s,t):
+    if len(s)!=len(t):
+        return False
+    count = {}
+    for ch in s:
+        count[ch] = count.get(ch,0)+1
+    for ch in t:
+        if ch not in count or count[ch]==0:
+            return False
+        count[ch]-=1
+    return True
 
 
-# for ch in s:
-#     print(ch,end=" ")
+s=input()
+t=input()
+print(valid_anagram(s,t))
 
-for ch in s:
-    for tx in t:
-        if(ch==tx):
-            print(True)
-        else:
-            print(False)
+
