@@ -1,0 +1,3 @@
+import paul
+
+paul.welcome()
